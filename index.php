@@ -18,6 +18,10 @@ echo "Vvedite 3 parametra A, B , C. \n";
 $paramens = explode(" ", fgets(STDIN));
 
 try {
+	$file = fopen("version", "r");
+	MyLog::log("Выполняется с верисии: ".fgets($file));
+	echo "Version: ".fgets($file, 4096);
+	fclose($file);
 	if (count($paramens) != 3) {
 		throw new RzekaMansurException("You entered not 3 numbers. Try again.");
 	}
