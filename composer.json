@@ -19,11 +19,11 @@
     },{
       "type":"package",
       "package":{
-        "name":"Rzeka-bukvar/laby",
+        "name":"Rzeka-bukvar/lib",
         "version":"dev-master",
         "source":{
           "type":"git",
-          "url":"https://github.com/Rzeka-bukvar/laby.git",
+          "url":"https://github.com/Rzeka-bukvar/lib.git",
           "reference":"master"
         }
       }
