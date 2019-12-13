@@ -2,7 +2,7 @@
   "minimum-stability": "dev",
   "require": {
     "php":">=5.3.0",
-    "Rzeka-bukvar/laby":"dev-master",
+    "Rzeka-bukvar/lib":"dev-master",
     "rok9ru/trpo-core":"dev-master"
   },"repositories":[
     {
