@@ -7,11 +7,11 @@
     "content-hash": "96fc28651778433f39787d927c60a8fe",
     "packages": [
         {
-            "name": "Rzeka-bukvar/laby",
+            "name": "Rzeka-bukvar/lib",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Rzeka-bukvar/laby.git",
+                "url": "https://github.com/Rzeka-bukvar/lib.git",
                 "reference": "master"
             },
             "type": "library",
@@ -33,7 +33,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "Rzeka-bukvar/laby": 20,
+        "Rzeka-bukvar/lib": 20,
         "rok9ru/trpo-core": 20
     },
     "prefer-stable": false,
