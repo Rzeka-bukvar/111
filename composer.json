@@ -2,7 +2,7 @@
   "minimum-stability": "dev",
   "require": {
     "php":">=5.3.0",
-    "Rzeka-bukvar/laby":"dev-master",
+    "Rzeka-bukvar/lib":"dev-master",
     "rok9ru/trpo-core":"dev-master"
   },"repositories":[
     {
@@ -19,11 +19,11 @@
     },{
       "type":"package",
       "package":{
-        "name":"Rzeka-bukvar/laby",
+        "name":"Rzeka-bukvar/lib",
         "version":"dev-master",
         "source":{
           "type":"git",
-          "url":"https://github.com/Rzeka-bukvar/laby.git",
+          "url":"https://github.com/Rzeka-bukvar/lib.git",
           "reference":"master"
         }
       }
@@ -31,7 +31,7 @@
   ],
   "autoload":{
     "classmap": [
-      "vendor/Rzeka-bukvar/laby/",
+      "vendor/Rzeka-bukvar/lib/",
       "vendor/rok9ru/trpo-core/"
     ]
   }
