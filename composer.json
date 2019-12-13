@@ -31,7 +31,7 @@
   ],
   "autoload":{
     "classmap": [
-      "vendor/Rzeka-bukvar/laby/",
+      "vendor/Rzeka-bukvar/lib/",
       "vendor/rok9ru/trpo-core/"
     ]
   }
