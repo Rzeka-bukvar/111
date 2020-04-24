@@ -1,7 +1,7 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use specialepic\QuadraticEq;
-use specialepic\RzekaMansur_Exception;
+use RzekaMansur\QuadraticEq;
+use RzekaMansur\RzekaMansur_Exception;
 
 class QuadraticTest extends TestCase 
 {
