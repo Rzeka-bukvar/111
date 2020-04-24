@@ -1,7 +1,7 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Rzeka-bukvar\LinearEq;
-use Rzeka-bukvar\RzekaMansur_Exception;
+use RzekaMansur\LinearEq;
+use RzekaMansur\RzekaMansur_Exception;
 
 class LinearTest extends TestCase 
 {
