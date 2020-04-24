@@ -15,7 +15,6 @@
         echo "Installed Composer\n";
         exec('php composer.phar install --no-cache');
         echo "Loaded repo\n";
-        unlink('composer.phar');
         file_put_contents('version',exec('cd vendor/Rzeka-bukvar/lib && git symbolic-ref --short -q HEAD'));
         file_put_contents('start.bat',"php index.php \npause");
         echo "Created version file\n";
